@@ -61,7 +61,7 @@ function iniciarAtendimento() {
     console.log('1 - Fechar a conta (ou digite F)');
     console.log('2 - Voltar e reiniciar o atendimento (ou digite V)');
 
-    const fecharOuVoltar = readline.question('Digite o nu1mero correspondente ou a letra (F/V): ').toLowerCase();
+    const fecharOuVoltar = readline.question('Digite o numero correspondente ou a letra (F/V): ').toLowerCase();
 
     if (fecharOuVoltar === '1' || fecharOuVoltar === 'f' || fecharOuVoltar === 'fechar') {
       console.log('Mesa fechada, obrigado!');
